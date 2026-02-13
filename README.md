@@ -116,7 +116,7 @@ Giúp so sánh trực quan giữa các kiến trúc và tối ưu mô hình hi�
 
 ---
 
-## 🚀 Tính năng chính
+## 📓 Tính năng chính
 
 - Phân tích đặc trưng âm thanh từ các file định dạng `.wav`.
 - Thử nghiệm và so sánh hiệu suất trên nhiều kiến trúc mạng khác nhau:
@@ -127,8 +127,6 @@ Giúp so sánh trực quan giữa các kiến trúc và tối ưu mô hình hi�
 - Theo dõi quá trình huấn luyện trực quan qua **Weights & Biases (WandB)**.
 
 ---
-
-## 📁 Cấu trúc thư mục
 
 
 ## 📁 Cấu trúc thư mục
