@@ -1,0 +1,39 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.10.5",
+  "startedAt":  "2025-07-09T14:01:20.765276Z",
+  "program":  "d:\\SU25\\DPL302\\Asm3\\speed_emotion.ipynb",
+  "codePath":  "speed_emotion.ipynb",
+  "email":  "nhut.an41004@gmail.com",
+  "root":  "d:\\SU25\\DPL302\\Asm3",
+  "host":  "DESKTOP-UAJ001I",
+  "executable":  "c:\\Program Files\\Python310\\python.exe",
+  "codePathLocal":  "speed_emotion.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce MX230",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "161479651328",
+      "used":  "106874077184"
+    }
+  },
+  "memory":  {
+    "total":  "8328560640"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce MX230",
+      "memoryTotal":  "2147483648",
+      "cudaCores":  256,
+      "architecture":  "Pascal",
+      "uuid":  "GPU-9b01133c-3d8d-b40f-c608-d0cf073bcb60"
+    }
+  ],
+  "cudaVersion":  "12.8"
+}

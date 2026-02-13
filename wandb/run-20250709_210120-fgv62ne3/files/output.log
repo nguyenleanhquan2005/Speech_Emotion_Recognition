@@ -1,0 +1,22 @@
+Class weights: [0.60032103 0.93734336 1.66964286 1.11309524 1.06857143 0.97142857
+ 1.24252492]
+
+Training Deep_Neural_Network Model:
+  Epochs: 100
+  Learning rate: 0.001
+  Patience: 15
+  Model will be saved as: best_deep_neural_network_model.pth
+Epoch   1/100 | Train Loss: 1.8566 | Train Acc: 0.2433 | Val Loss: 1.8722 | Val Acc: 0.4625
+Epoch   2/100 | Train Loss: 1.5099 | Train Acc: 0.5000 | Val Loss: 1.7013 | Val Acc: 0.5000
+Epoch   3/100 | Train Loss: 1.3172 | Train Acc: 0.6551 | Val Loss: 1.4444 | Val Acc: 0.5875
+Epoch   4/100 | Train Loss: 1.1675 | Train Acc: 0.6952 | Val Loss: 1.1964 | Val Acc: 0.6250
+Epoch   5/100 | Train Loss: 1.0585 | Train Acc: 0.7299 | Val Loss: 1.0107 | Val Acc: 0.7000
+Epoch   6/100 | Train Loss: 0.8986 | Train Acc: 0.7941 | Val Loss: 0.8988 | Val Acc: 0.7375 | *** NEW BEST ***
+Epoch   7/100 | Train Loss: 0.7539 | Train Acc: 0.8449 | Val Loss: 0.8144 | Val Acc: 0.7500 | *** NEW BEST ***
+Epoch   8/100 | Train Loss: 0.6163 | Train Acc: 0.8583 | Val Loss: 0.6717 | Val Acc: 0.7875 | *** NEW BEST ***
+Epoch   9/100 | Train Loss: 0.5040 | Train Acc: 0.8957 | Val Loss: 0.5641 | Val Acc: 0.8250 | *** NEW BEST ***
+Epoch  10/100 | Train Loss: 0.3976 | Train Acc: 0.9198 | Val Loss: 0.5255 | Val Acc: 0.8500
+Epoch  11/100 | Train Loss: 0.3063 | Train Acc: 0.9198 | Val Loss: 0.5151 | Val Acc: 0.8625 | *** NEW BEST ***
+Epoch  20/100 | Train Loss: 0.2708 | Train Acc: 0.9064 | Val Loss: 1.4384 | Val Acc: 0.6750
+Early stopping at epoch 26!
+Training completed! Best validation accuracy: 0.8625

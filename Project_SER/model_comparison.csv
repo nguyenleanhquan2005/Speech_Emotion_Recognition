@@ -1,0 +1,5 @@
+Model,Architecture,Parameters,Best_Val_Acc,Test_Acc,Model_Size_MB
+Residual_Model,ResidualModel,"226,055",0.875,0.7901234567901234,0.86
+Deep_Neural_Network,DeepNeuralNetwork,"193,287",0.8625,0.7530864197530864,0.74
+Shallow_Neural_Network,ShallowNeuralNetwork,"13,319",0.8375,0.7160493827160493,0.05
+LSTM_Model,LSTMModel,"552,455",0.75,0.7160493827160493,2.11

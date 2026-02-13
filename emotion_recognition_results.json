@@ -1,0 +1,92 @@
+{
+  "experiment_info": {
+    "date": "2025-07-09 21:02:01",
+    "dataset": "EmoDB (Berlin Database of Emotional Speech)",
+    "total_samples": 374,
+    "train_samples": 374,
+    "val_samples": 80,
+    "test_samples": 81,
+    "num_classes": 7,
+    "feature_dim": 35,
+    "emotions": [
+      "anger",
+      "boredom",
+      "disgust",
+      "fear",
+      "happiness",
+      "neutral",
+      "sadness"
+    ],
+    "device": "cuda"
+  },
+  "feature_extraction": {
+    "sample_rate": 16000,
+    "features": {
+      "mfcc": 13,
+      "chroma": 12,
+      "spectral_contrast": 7,
+      "zcr": 1,
+      "rolloff": 1,
+      "centroid": 1,
+      "total": 35
+    }
+  },
+  "model_results": {
+    "Shallow_Neural_Network": {
+      "architecture": "ShallowNeuralNetwork",
+      "total_parameters": 13319,
+      "trainable_parameters": 13319,
+      "model_size_mb": 0.05,
+      "best_val_accuracy": 0.8375,
+      "test_accuracy": 0.716,
+      "training_config": {
+        "num_epochs": 100,
+        "lr": 0.001,
+        "patience": 15
+      },
+      "model_path": "best_shallow_neural_network_model.pth"
+    },
+    "Deep_Neural_Network": {
+      "architecture": "DeepNeuralNetwork",
+      "total_parameters": 193287,
+      "trainable_parameters": 193287,
+      "model_size_mb": 0.74,
+      "best_val_accuracy": 0.8625,
+      "test_accuracy": 0.7531,
+      "training_config": {
+        "num_epochs": 100,
+        "lr": 0.001,
+        "patience": 15
+      },
+      "model_path": "best_deep_neural_network_model.pth"
+    },
+    "Residual_Model": {
+      "architecture": "ResidualModel",
+      "total_parameters": 226055,
+      "trainable_parameters": 226055,
+      "model_size_mb": 0.86,
+      "best_val_accuracy": 0.875,
+      "test_accuracy": 0.7901,
+      "training_config": {
+        "num_epochs": 120,
+        "lr": 0.0008,
+        "patience": 20
+      },
+      "model_path": "best_residual_model_model.pth"
+    },
+    "LSTM_Model": {
+      "architecture": "LSTMModel",
+      "total_parameters": 552455,
+      "trainable_parameters": 552455,
+      "model_size_mb": 2.11,
+      "best_val_accuracy": 0.75,
+      "test_accuracy": 0.716,
+      "training_config": {
+        "num_epochs": 150,
+        "lr": 0.0005,
+        "patience": 25
+      },
+      "model_path": "best_lstm_model_model.pth"
+    }
+  }
+}

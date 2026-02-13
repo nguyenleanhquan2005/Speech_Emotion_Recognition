@@ -1,0 +1,18 @@
+
+Testing Deep_Neural_Network Model:
+Test Accuracy: 0.7531
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+       anger     0.8947    0.8947    0.8947        19
+     boredom     0.6923    0.7500    0.7200        12
+     disgust     1.0000    0.7143    0.8333         7
+        fear     0.6000    0.8182    0.6923        11
+   happiness     0.7143    0.4545    0.5556        11
+     neutral     0.7000    0.5833    0.6364        12
+     sadness     0.7500    1.0000    0.8571         9
+
+    accuracy                         0.7531        81
+   macro avg     0.7645    0.7450    0.7413        81
+weighted avg     0.7644    0.7531    0.7475        81

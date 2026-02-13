@@ -1,0 +1,18 @@
+
+Testing Residual_Model Model:
+Test Accuracy: 0.7901
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+       anger     0.8182    0.9474    0.8780        19
+     boredom     1.0000    0.5833    0.7368        12
+     disgust     0.8571    0.8571    0.8571         7
+        fear     0.6667    0.9091    0.7692        11
+   happiness     0.8333    0.4545    0.5882        11
+     neutral     0.6923    0.7500    0.7200        12
+     sadness     0.8182    1.0000    0.9000         9
+
+    accuracy                         0.7901        81
+   macro avg     0.8123    0.7859    0.7785        81
+weighted avg     0.8113    0.7901    0.7802        81

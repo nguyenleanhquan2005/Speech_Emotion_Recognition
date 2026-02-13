@@ -1,0 +1,18 @@
+
+Testing LSTM_Model Model:
+Test Accuracy: 0.7160
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+       anger     0.7273    0.8421    0.7805        19
+     boredom     0.9000    0.7500    0.8182        12
+     disgust     0.6667    0.5714    0.6154         7
+        fear     0.6923    0.8182    0.7500        11
+   happiness     0.3000    0.2727    0.2857        11
+     neutral     0.8889    0.6667    0.7619        12
+     sadness     0.8182    1.0000    0.9000         9
+
+    accuracy                         0.7160        81
+   macro avg     0.7133    0.7030    0.7017        81
+weighted avg     0.7189    0.7160    0.7110        81

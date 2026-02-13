@@ -1,0 +1,29 @@
+Class weights: [0.60032103 0.93734336 1.66964286 1.11309524 1.06857143 0.97142857
+ 1.24252492]
+
+Training LSTM_Model Model:
+  Epochs: 150
+  Learning rate: 0.0005
+  Patience: 25
+  Model will be saved as: best_lstm_model_model.pth
+Epoch   1/150 | Train Loss: 1.9480 | Train Acc: 0.1203 | Val Loss: 1.9469 | Val Acc: 0.1500
+Epoch   2/150 | Train Loss: 1.9459 | Train Acc: 0.1390 | Val Loss: 1.9450 | Val Acc: 0.1500
+Epoch   3/150 | Train Loss: 1.9436 | Train Acc: 0.1417 | Val Loss: 1.9426 | Val Acc: 0.1500
+Epoch   4/150 | Train Loss: 1.9400 | Train Acc: 0.1444 | Val Loss: 1.9392 | Val Acc: 0.1500
+Epoch   5/150 | Train Loss: 1.9360 | Train Acc: 0.1524 | Val Loss: 1.9334 | Val Acc: 0.1250
+Epoch   7/150 | Train Loss: 1.9149 | Train Acc: 0.1684 | Val Loss: 1.9050 | Val Acc: 0.2375 | *** NEW BEST ***
+Epoch   8/150 | Train Loss: 1.8834 | Train Acc: 0.2861 | Val Loss: 1.8589 | Val Acc: 0.3125 | *** NEW BEST ***
+Epoch  10/150 | Train Loss: 1.6825 | Train Acc: 0.3556 | Val Loss: 1.5934 | Val Acc: 0.3625
+Epoch  11/150 | Train Loss: 1.5702 | Train Acc: 0.3663 | Val Loss: 1.5033 | Val Acc: 0.4000 | *** NEW BEST ***
+Epoch  12/150 | Train Loss: 1.4708 | Train Acc: 0.4385 | Val Loss: 1.3494 | Val Acc: 0.4500 | *** NEW BEST ***
+Epoch  13/150 | Train Loss: 1.3335 | Train Acc: 0.4947 | Val Loss: 1.1698 | Val Acc: 0.5875 | *** NEW BEST ***
+Epoch  20/150 | Train Loss: 0.8879 | Train Acc: 0.6096 | Val Loss: 0.9722 | Val Acc: 0.5750
+Epoch  21/150 | Train Loss: 0.8089 | Train Acc: 0.6604 | Val Loss: 0.9215 | Val Acc: 0.6125 | *** NEW BEST ***
+Epoch  22/150 | Train Loss: 0.7836 | Train Acc: 0.7032 | Val Loss: 0.7965 | Val Acc: 0.6625 | *** NEW BEST ***
+Epoch  24/150 | Train Loss: 0.6735 | Train Acc: 0.7139 | Val Loss: 0.7388 | Val Acc: 0.7000 | *** NEW BEST ***
+Epoch  28/150 | Train Loss: 0.5713 | Train Acc: 0.7620 | Val Loss: 0.7948 | Val Acc: 0.7125 | *** NEW BEST ***
+Epoch  30/150 | Train Loss: 0.4873 | Train Acc: 0.7834 | Val Loss: 0.7325 | Val Acc: 0.7500
+Epoch  40/150 | Train Loss: 0.2467 | Train Acc: 0.8904 | Val Loss: 0.8692 | Val Acc: 0.7375
+Epoch  50/150 | Train Loss: 0.1528 | Train Acc: 0.9492 | Val Loss: 1.0247 | Val Acc: 0.7500
+Early stopping at epoch 55!
+Training completed! Best validation accuracy: 0.7500

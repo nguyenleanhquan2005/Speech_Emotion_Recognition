@@ -1,0 +1,16 @@
+{"time":"2025-07-09T21:01:09.6669529+07:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"d:\\SU25\\DPL302\\Asm3\\wandb\\run-20250709_210109-nblppjek\\logs\\debug-core.log"}
+{"time":"2025-07-09T21:01:12.4657623+07:00","level":"INFO","msg":"stream: created new stream","id":"nblppjek"}
+{"time":"2025-07-09T21:01:12.4662926+07:00","level":"INFO","msg":"stream: started","id":"nblppjek"}
+{"time":"2025-07-09T21:01:12.4668176+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"nblppjek"}
+{"time":"2025-07-09T21:01:12.4662926+07:00","level":"INFO","msg":"sender: started","stream_id":"nblppjek"}
+{"time":"2025-07-09T21:01:12.4662926+07:00","level":"INFO","msg":"handler: started","stream_id":"nblppjek"}
+{"time":"2025-07-09T21:01:13.0457619+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-09T21:01:15.6128879+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-09T21:01:15.6128879+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-09T21:01:16.6251696+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.7441837,"progress":"211B/211B"},{"desc":"uploading config.yaml","runtime_seconds":0.3150636,"progress":"694B/694B"}],"total_operations":2}}
+{"time":"2025-07-09T21:01:16.860766+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-09T21:01:17.283863+07:00","level":"INFO","msg":"stream: closing","id":"nblppjek"}
+{"time":"2025-07-09T21:01:17.283863+07:00","level":"INFO","msg":"handler: closed","stream_id":"nblppjek"}
+{"time":"2025-07-09T21:01:17.283863+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nblppjek"}
+{"time":"2025-07-09T21:01:17.283863+07:00","level":"INFO","msg":"sender: closed","stream_id":"nblppjek"}
+{"time":"2025-07-09T21:01:17.2849472+07:00","level":"INFO","msg":"stream: closed","id":"nblppjek"}

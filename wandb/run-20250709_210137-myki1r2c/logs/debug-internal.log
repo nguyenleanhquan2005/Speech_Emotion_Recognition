@@ -1,0 +1,16 @@
+{"time":"2025-07-09T21:01:37.1600426+07:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"d:\\SU25\\DPL302\\Asm3\\wandb\\run-20250709_210137-myki1r2c\\logs\\debug-core.log"}
+{"time":"2025-07-09T21:01:37.6976898+07:00","level":"INFO","msg":"stream: created new stream","id":"myki1r2c"}
+{"time":"2025-07-09T21:01:37.6981545+07:00","level":"INFO","msg":"stream: started","id":"myki1r2c"}
+{"time":"2025-07-09T21:01:37.6981545+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"myki1r2c"}
+{"time":"2025-07-09T21:01:37.6981545+07:00","level":"INFO","msg":"handler: started","stream_id":"myki1r2c"}
+{"time":"2025-07-09T21:01:37.6981545+07:00","level":"INFO","msg":"sender: started","stream_id":"myki1r2c"}
+{"time":"2025-07-09T21:01:38.0575945+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-09T21:01:56.064515+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-09T21:01:56.0649519+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-09T21:01:57.0833823+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7462151,"progress":"2.2KB/2.2KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7462151,"progress":"211B/211B"},{"desc":"uploading config.yaml","runtime_seconds":0.5040944,"progress":"683B/683B"}],"total_operations":3}}
+{"time":"2025-07-09T21:01:57.3482322+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-09T21:01:57.7257754+07:00","level":"INFO","msg":"stream: closing","id":"myki1r2c"}
+{"time":"2025-07-09T21:01:57.7257754+07:00","level":"INFO","msg":"handler: closed","stream_id":"myki1r2c"}
+{"time":"2025-07-09T21:01:57.7257754+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"myki1r2c"}
+{"time":"2025-07-09T21:01:57.7257754+07:00","level":"INFO","msg":"sender: closed","stream_id":"myki1r2c"}
+{"time":"2025-07-09T21:01:57.7272861+07:00","level":"INFO","msg":"stream: closed","id":"myki1r2c"}
